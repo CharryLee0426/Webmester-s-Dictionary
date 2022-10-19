@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB8F53EE28FFE93900C54BC1 /* Webster_s_Dictionary_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F53ED28FFE93900C54BC1 /* Webster_s_Dictionary_macOSApp.swift */; };
+		DB8F53F028FFE93900C54BC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F53EF28FFE93900C54BC1 /* ContentView.swift */; };
+		DB8F53F228FFE93900C54BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8F53F128FFE93900C54BC1 /* Assets.xcassets */; };
+		DB8F53F528FFE93900C54BC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8F53F428FFE93900C54BC1 /* Preview Assets.xcassets */; };
+		DB8F53FF28FFE9F100C54BC1 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F53FE28FFE9F100C54BC1 /* Dictionary.swift */; };
+		DB8F540528FFEA5100C54BC1 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F540428FFEA5100C54BC1 /* Dictionary.swift */; };
+		DBCA329728FCFF2B00A14861 /* Webmester_s_DictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA329628FCFF2B00A14861 /* Webmester_s_DictionaryApp.swift */; };
+		DBCA329928FCFF2B00A14861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA329828FCFF2B00A14861 /* ContentView.swift */; };
+		DBCA329B28FCFF2C00A14861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCA329A28FCFF2C00A14861 /* Assets.xcassets */; };
+		DBCA329E28FCFF2C00A14861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCA329D28FCFF2C00A14861 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB771C9A2900451400A4C20F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB8F53EB28FFE93900C54BC1 /* Webster's Dictionary macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webster's Dictionary macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8F53ED28FFE93900C54BC1 /* Webster_s_Dictionary_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webster_s_Dictionary_macOSApp.swift; sourceTree = "<group>"; };
+		DB8F53EF28FFE93900C54BC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB8F53F128FFE93900C54BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB8F53F428FFE93900C54BC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB8F53F628FFE93900C54BC1 /* Webster_s_Dictionary_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Webster_s_Dictionary_macOS.entitlements; sourceTree = "<group>"; };
+		DB8F53FE28FFE9F100C54BC1 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = "Webmester's Dictionary/Dictionary.swift"; sourceTree = SOURCE_ROOT; };
+		DB8F540428FFEA5100C54BC1 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		DBCA329328FCFF2B00A14861 /* Webmester's Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webmester's Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCA329628FCFF2B00A14861 /* Webmester_s_DictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webmester_s_DictionaryApp.swift; sourceTree = "<group>"; };
+		DBCA329828FCFF2B00A14861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBCA329A28FCFF2C00A14861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBCA329D28FCFF2C00A14861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8F53E828FFE93900C54BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA329028FCFF2B00A14861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB8F53EC28FFE93900C54BC1 /* Webster's Dictionary macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F53FA28FFE9AB00C54BC1 /* Model */,
+				DB8F53ED28FFE93900C54BC1 /* Webster_s_Dictionary_macOSApp.swift */,
+				DB8F53EF28FFE93900C54BC1 /* ContentView.swift */,
+				DB8F53F128FFE93900C54BC1 /* Assets.xcassets */,
+				DB8F53F628FFE93900C54BC1 /* Webster_s_Dictionary_macOS.entitlements */,
+				DB8F53F328FFE93900C54BC1 /* Preview Content */,
+			);
+			path = "Webster's Dictionary macOS";
+			sourceTree = "<group>";
+		};
+		DB8F53F328FFE93900C54BC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F53F428FFE93900C54BC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB8F53FA28FFE9AB00C54BC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F540428FFEA5100C54BC1 /* Dictionary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBCA328A28FCFF2B00A14861 = {
+			isa = PBXGroup;
+			children = (
+				DBCA329528FCFF2B00A14861 /* Webmester's Dictionary */,
+				DB8F53EC28FFE93900C54BC1 /* Webster's Dictionary macOS */,
+				DB771C9A2900451400A4C20F /* README.md */,
+				DBCA329428FCFF2B00A14861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCA329428FCFF2B00A14861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCA329328FCFF2B00A14861 /* Webmester's Dictionary.app */,
+				DB8F53EB28FFE93900C54BC1 /* Webster's Dictionary macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCA329528FCFF2B00A14861 /* Webmester's Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				DBCA32A428FD37AD00A14861 /* Model */,
+				DBCA329628FCFF2B00A14861 /* Webmester_s_DictionaryApp.swift */,
+				DBCA329828FCFF2B00A14861 /* ContentView.swift */,
+				DBCA329A28FCFF2C00A14861 /* Assets.xcassets */,
+				DBCA329C28FCFF2C00A14861 /* Preview Content */,
+			);
+			path = "Webmester's Dictionary";
+			sourceTree = "<group>";
+		};
+		DBCA329C28FCFF2C00A14861 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBCA329D28FCFF2C00A14861 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBCA32A428FD37AD00A14861 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F53FE28FFE9F100C54BC1 /* Dictionary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8F53EA28FFE93900C54BC1 /* Webster's Dictionary macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8F53F928FFE93900C54BC1 /* Build configuration list for PBXNativeTarget "Webster's Dictionary macOS" */;
+			buildPhases = (
+				DB8F53E728FFE93900C54BC1 /* Sources */,
+				DB8F53E828FFE93900C54BC1 /* Frameworks */,
+				DB8F53E928FFE93900C54BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Webster's Dictionary macOS";
+			productName = "Webster's Dictionary macOS";
+			productReference = DB8F53EB28FFE93900C54BC1 /* Webster's Dictionary macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBCA329228FCFF2B00A14861 /* Webmester's Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCA32A128FCFF2C00A14861 /* Build configuration list for PBXNativeTarget "Webmester's Dictionary" */;
+			buildPhases = (
+				DBCA328F28FCFF2B00A14861 /* Sources */,
+				DBCA329028FCFF2B00A14861 /* Frameworks */,
+				DBCA329128FCFF2B00A14861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Webmester's Dictionary";
+			productName = "Webmester's Dictionary";
+			productReference = DBCA329328FCFF2B00A14861 /* Webmester's Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCA328B28FCFF2B00A14861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DB8F53EA28FFE93900C54BC1 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DBCA329228FCFF2B00A14861 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DBCA328E28FCFF2B00A14861 /* Build configuration list for PBXProject "Webmester's Dictionary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCA328A28FCFF2B00A14861;
+			productRefGroup = DBCA329428FCFF2B00A14861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCA329228FCFF2B00A14861 /* Webmester's Dictionary */,
+				DB8F53EA28FFE93900C54BC1 /* Webster's Dictionary macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB8F53E928FFE93900C54BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F53F528FFE93900C54BC1 /* Preview Assets.xcassets in Resources */,
+				DB8F53F228FFE93900C54BC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA329128FCFF2B00A14861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCA329E28FCFF2C00A14861 /* Preview Assets.xcassets in Resources */,
+				DBCA329B28FCFF2C00A14861 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8F53E728FFE93900C54BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F53F028FFE93900C54BC1 /* ContentView.swift in Sources */,
+				DB8F540528FFEA5100C54BC1 /* Dictionary.swift in Sources */,
+				DB8F53EE28FFE93900C54BC1 /* Webster_s_Dictionary_macOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA328F28FCFF2B00A14861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCA329928FCFF2B00A14861 /* ContentView.swift in Sources */,
+				DB8F53FF28FFE9F100C54BC1 /* Dictionary.swift in Sources */,
+				DBCA329728FCFF2B00A14861 /* Webmester_s_DictionaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB8F53F728FFE93900C54BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Webster's Dictionary macOS/Webster_s_Dictionary_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Webster's Dictionary macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AU5R4R26PL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "M-W Dictionary";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lichenxidian.Webster-s-Dictionary-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB8F53F828FFE93900C54BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Webster's Dictionary macOS/Webster_s_Dictionary_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Webster's Dictionary macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AU5R4R26PL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "M-W Dictionary";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lichenxidian.Webster-s-Dictionary-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBCA329F28FCFF2C00A14861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBCA32A028FCFF2C00A14861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBCA32A228FCFF2C00A14861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Webmester's Dictionary/Preview Content\"";
+				DEVELOPMENT_TEAM = AU5R4R26PL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lichenxidian.Webmester-s-Dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBCA32A328FCFF2C00A14861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Webmester's Dictionary/Preview Content\"";
+				DEVELOPMENT_TEAM = AU5R4R26PL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lichenxidian.Webmester-s-Dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8F53F928FFE93900C54BC1 /* Build configuration list for PBXNativeTarget "Webster's Dictionary macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8F53F728FFE93900C54BC1 /* Debug */,
+				DB8F53F828FFE93900C54BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCA328E28FCFF2B00A14861 /* Build configuration list for PBXProject "Webmester's Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCA329F28FCFF2C00A14861 /* Debug */,
+				DBCA32A028FCFF2C00A14861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCA32A128FCFF2C00A14861 /* Build configuration list for PBXNativeTarget "Webmester's Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCA32A228FCFF2C00A14861 /* Debug */,
+				DBCA32A328FCFF2C00A14861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBCA328B28FCFF2B00A14861 /* Project object */;
+}
