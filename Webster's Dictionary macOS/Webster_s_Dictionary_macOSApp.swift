@@ -14,6 +14,7 @@ struct Webster_s_Dictionary_macOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 400,maxWidth: .infinity, minHeight: 450, maxHeight: .infinity)
         }
     }
 }
