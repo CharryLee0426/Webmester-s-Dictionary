@@ -71,6 +71,12 @@ struct ContentView: View {
                 }
             } else {
                 Spacer()
+                HStack {
+                    Text("Don't have a key? Get one at ")
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
+                    Link("https://www.dictionaryapi.com/", destination: URL(string: "https://www.dictionaryapi.com/")!)
+                }
             }
         }
     }
