@@ -17,6 +17,7 @@
 		DBCA329928FCFF2B00A14861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA329828FCFF2B00A14861 /* ContentView.swift */; };
 		DBCA329B28FCFF2C00A14861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCA329A28FCFF2C00A14861 /* Assets.xcassets */; };
 		DBCA329E28FCFF2C00A14861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCA329D28FCFF2C00A14861 /* Preview Assets.xcassets */; };
+		DBD3D6552902E87300F36EB0 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3D6542902E87300F36EB0 /* HelpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		DBCA329828FCFF2B00A14861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBCA329A28FCFF2C00A14861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBCA329D28FCFF2C00A14861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBD3D6532902E53600F36EB0 /* Webster-s-Dictionary-macOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Webster-s-Dictionary-macOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DBD3D6542902E87300F36EB0 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +60,14 @@
 		DB8F53EC28FFE93900C54BC1 /* Webster's Dictionary macOS */ = {
 			isa = PBXGroup;
 			children = (
+				DBD3D6532902E53600F36EB0 /* Webster-s-Dictionary-macOS-Info.plist */,
 				DB8F53FA28FFE9AB00C54BC1 /* Model */,
 				DB8F53ED28FFE93900C54BC1 /* Webster_s_Dictionary_macOSApp.swift */,
 				DB8F53EF28FFE93900C54BC1 /* ContentView.swift */,
 				DB8F53F128FFE93900C54BC1 /* Assets.xcassets */,
 				DB8F53F628FFE93900C54BC1 /* Webster_s_Dictionary_macOS.entitlements */,
 				DB8F53F328FFE93900C54BC1 /* Preview Content */,
+				DBD3D6542902E87300F36EB0 /* HelpView.swift */,
 			);
 			path = "Webster's Dictionary macOS";
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8F53F028FFE93900C54BC1 /* ContentView.swift in Sources */,
+				DBD3D6552902E87300F36EB0 /* HelpView.swift in Sources */,
 				DB8F540528FFEA5100C54BC1 /* Dictionary.swift in Sources */,
 				DB8F53EE28FFE93900C54BC1 /* Webster_s_Dictionary_macOSApp.swift in Sources */,
 			);
@@ -262,6 +268,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Webster-s-Dictionary-macOS-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "M-W Dictionary";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -291,6 +298,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Webster-s-Dictionary-macOS-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "M-W Dictionary";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
