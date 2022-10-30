@@ -28,7 +28,7 @@
 		DB8F53F128FFE93900C54BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8F53F428FFE93900C54BC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB8F53F628FFE93900C54BC1 /* Webster_s_Dictionary_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Webster_s_Dictionary_macOS.entitlements; sourceTree = "<group>"; };
-		DB8F53FE28FFE9F100C54BC1 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = "Webmester's Dictionary/Dictionary.swift"; sourceTree = SOURCE_ROOT; };
+		DB8F53FE28FFE9F100C54BC1 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = "Webmester's Dictionary/Model/Dictionary.swift"; sourceTree = SOURCE_ROOT; };
 		DB8F540428FFEA5100C54BC1 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		DBCA329328FCFF2B00A14861 /* Webmester's Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webmester's Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCA329628FCFF2B00A14861 /* Webmester_s_DictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webmester_s_DictionaryApp.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		DBCA329528FCFF2B00A14861 /* Webmester's Dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				DBCA32A428FD37AD00A14861 /* Model */,
+				DBD3D6562902EC3100F36EB0 /* Model */,
 				DBCA329628FCFF2B00A14861 /* Webmester_s_DictionaryApp.swift */,
 				DBCA329828FCFF2B00A14861 /* ContentView.swift */,
 				DBCA329A28FCFF2C00A14861 /* Assets.xcassets */,
@@ -127,7 +127,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DBCA32A428FD37AD00A14861 /* Model */ = {
+		DBD3D6562902EC3100F36EB0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				DB8F53FE28FFE9F100C54BC1 /* Dictionary.swift */,
